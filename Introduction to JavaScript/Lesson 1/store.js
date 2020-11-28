@@ -31,7 +31,14 @@ function ready() {
 }
 
 function purchaseClicked(){
-alert()
+alert('Thank you for your purchase')
+const cartItems = document.querySelector('.cart-items')
+const total = document.querySelector('.cart-total-price')
+while(cartItems.hasChildNodes())
+{
+  cartItems.removeChild(cartItems.firstChild)
+}
+total.textContent = '$0'
 }
 
 function removeCartItem(e) {
@@ -40,7 +47,6 @@ function removeCartItem(e) {
   updateCartTotal()
 }
 
-
 function quantityChanged(e) {
   const input = e.target
   if (isNaN(input.value) || input.value <= 0 || input.value >= 99) {
@@ -48,7 +54,6 @@ function quantityChanged(e) {
   }
   updateCartTotal()
 }
-
 
 function addItemToCartClicked(e) {
   // two situations: one already exists in cart, anther totally brand new
