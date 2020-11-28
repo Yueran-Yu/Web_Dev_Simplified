@@ -25,8 +25,14 @@ function ready() {
     const addBtn = addToCartButtons[i]
     addBtn.addEventListener('click', addItemToCartClicked)
   }
+
+
+ document.querySelector('.btn-purchase').addEventListener('click',purchaseClicked)
 }
 
+function purchaseClicked(){
+alert()
+}
 
 function removeCartItem(e) {
   let btn = e.target
@@ -64,7 +70,11 @@ function addItemToCart(image, title, price) {
 
   for(let i = 0; i < cartItemNames.length; i++){
     if(cartItemNames[i].innerText===title){
-      alert('This item is already added to the cart.')
+      const messageBox = document.querySelector('.messageBox')
+      messageBox.classList.remove('hiddenItem')
+      messageBox.innerText = `This item is already added to the cart.`
+      setTimeout(()=> messageBox.classList.add('hiddenItem'), 3000)
+
       return
     }
   }
@@ -82,8 +92,10 @@ function addItemToCart(image, title, price) {
   cartRow.innerHTML = cartRowContents
 
   cartItems.append(cartRow)
+  // 因为在初始化 ready()方法不可能循环新添加的 cart item，所以 addItemToCart() 方法需要手动添加触发一下  remove 和  quantity change 方法
   cartRow.querySelector('.btn-danger').addEventListener('click', removeCartItem)
-
+  cartRow.querySelector('.cart-quantity-input').addEventListener('change',quantityChanged)
+  updateCartTotal()
 }
 
 
