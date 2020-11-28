@@ -54,6 +54,7 @@ function addItemToCartClicked(e) {
   const price = shopItem.querySelector('.shop-item-price').innerText
   const image = shopItem.querySelector('.shop-item-image').src
   addItemToCart(image, title, price)
+  updateCartTotal()
 }
 
 function addItemToCart(image, title, price) {
@@ -64,6 +65,7 @@ function addItemToCart(image, title, price) {
   for(let i = 0; i < cartItemNames.length; i++){
     if(cartItemNames[i].innerText===title){
       alert('This item is already added to the cart.')
+      return
     }
   }
 
@@ -80,7 +82,7 @@ function addItemToCart(image, title, price) {
   cartRow.innerHTML = cartRowContents
 
   cartItems.append(cartRow)
-
+  cartRow.querySelector('.btn-danger').addEventListener('click', removeCartItem)
 
 }
 
