@@ -23,7 +23,7 @@ function ready() {
   const addToCartButtons = document.querySelectorAll('.shop-item-button')
   for (let i = 0; i < addToCartButtons.length; i++) {
     const addBtn = addToCartButtons[i]
-    addBtn.addEventListener('click', addToCart)
+    addBtn.addEventListener('click', addItemToCartClicked)
   }
 }
 
@@ -44,13 +44,42 @@ function quantityChanged(e) {
 }
 
 
-function addToCart(e) {
+function addItemToCartClicked(e) {
   // two situations: one already exists in cart, anther totally brand new
-  // get image, name, price, quantity
+  // get image, name, price
   // put them into a html element
   const button = e.target
   let shopItem = button.parentElement.parentElement
-  console.log(shopItem);
+  const title = shopItem.querySelector('.shop-item-title').innerText
+  const price = shopItem.querySelector('.shop-item-price').innerText
+  const image = shopItem.querySelector('.shop-item-image').src
+  addItemToCart(image, title, price)
+}
+
+function addItemToCart(image, title, price) {
+  const cartRow = document.createElement('div')
+  const cartItems = document.querySelector('.cart-items')
+  const cartItemNames = cartItems.querySelectorAll('.cart-item-title')
+
+  for(let i = 0; i < cartItemNames.length; i++){
+    if(cartItemNames[i].innerText===title){
+      alert('This item is already added to the cart.')
+    }
+  }
+
+  const cartRowContents = `<div class="cart-item cart-column">
+      <img src="${image}" alt="" class="cart-item-image" width="100" height="100">
+      <div class="cart-item-title">${title}</div>
+  </div>
+  <span class="cart-price cart-column">${price}</span>
+  <div class="cart-quantity cart-column">
+      <input type="number" class="cart-quantity-input" value="1">
+      <button class="btn btn-danger" type="button">Remove</button>
+  </div>`
+  cartRow.classList.add('cart-row')
+  cartRow.innerHTML = cartRowContents
+
+  cartItems.append(cartRow)
 
 
 }
