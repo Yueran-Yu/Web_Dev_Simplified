@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width:100%;
+}
+
+.container{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap:1rem;
+}
+
+
+.box{
+  height: 140px;
+  background-color: blueviolet;
+  border: 1px solid wheat;
+}
