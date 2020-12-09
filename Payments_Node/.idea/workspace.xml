@@ -7,6 +7,10 @@
       <change afterPath="$PROJECT_DIR$/.idea/Payments_Node.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction-to-Web-Development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Node_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Node_Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607527617631</updated>
-      <workItem from="1607527618748" duration="652000" />
+      <workItem from="1607527618748" duration="1486000" />
     </task>
     <servers />
   </component>
