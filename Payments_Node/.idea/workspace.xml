@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea222f27-05e1-468d-8378-38ffe04a935e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a06725b-46aa-4664-8a71-3d8539bddff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Payments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Payments_Node.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Node_Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,20 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1lQO8wnkPK3Tty8upewBFjgK0Fy" />
+  <component name="ProjectId" id="1lQS2vHOf68HrrO7ETxKTH2WzBp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.11.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.11.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -33,12 +36,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea222f27-05e1-468d-8378-38ffe04a935e" name="Default Changelist" comment="" />
-      <created>1607525693469</created>
+      <changelist id="1a06725b-46aa-4664-8a71-3d8539bddff6" name="Default Changelist" comment="" />
+      <created>1607527617631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607525693469</updated>
-      <workItem from="1607525694575" duration="1360000" />
+      <updated>1607527617631</updated>
+      <workItem from="1607527618748" duration="652000" />
     </task>
     <servers />
   </component>
