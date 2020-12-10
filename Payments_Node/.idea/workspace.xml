@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a06725b-46aa-4664-8a71-3d8539bddff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Introduction to JavaScript/Lesson 1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Introduction to JavaScript/Lesson 1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Introduction to JavaScript/Lesson 1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Fonts/Booter - Zero Zero.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Fonts/Booter - Zero Zero.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Album 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Album 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Album 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Album 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Band Members.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Cofee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Facebook Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Header Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Shirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Spotify Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Images/Youtube Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction-to-Web-Development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +51,7 @@
       <updated>1607527617631</updated>
       <workItem from="1607527618748" duration="6018000" />
       <workItem from="1607574994743" duration="35000" />
+      <workItem from="1607575173505" duration="350000" />
     </task>
     <servers />
   </component>
