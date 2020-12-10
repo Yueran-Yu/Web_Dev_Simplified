@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a06725b-46aa-4664-8a71-3d8539bddff6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lQS2vHOf68HrrO7ETxKTH2WzBp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,6 +52,7 @@
       <workItem from="1607527618748" duration="6018000" />
       <workItem from="1607574994743" duration="35000" />
       <workItem from="1607575173505" duration="817000" />
+      <workItem from="1607576170621" duration="223000" />
     </task>
     <servers />
   </component>
