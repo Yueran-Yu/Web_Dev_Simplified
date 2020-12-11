@@ -19,7 +19,7 @@ app.get('/store', function (req, res) {
             // store.ejs => store.ejs
             console.log(data.toString())
             res.render('store.ejs', {
-                stripeSecretKey: stripeSecretKey,
+                stripePublicKey: stripePublicKey,
                 items: JSON.parse(data.toString())
 
             })
