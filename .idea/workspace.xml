@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3abc94-ba1f-4b8c-a754-1be0d02d17d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/promiseExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array_methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builderPattern.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payments_Node/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payments_Node/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promiseExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/promiseExample.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +50,8 @@
       <updated>1607576055962</updated>
       <workItem from="1607576057056" duration="111000" />
       <workItem from="1607576518511" duration="255000" />
-      <workItem from="1635119721602" duration="601000" />
+      <workItem from="1635119721602" duration="2515000" />
+      <workItem from="1635335866457" duration="1178000" />
     </task>
     <servers />
   </component>
